@@ -509,3 +509,32 @@ legend span {
 }
 
 td{padding-bottom:.6em}th{width:6em;font-weight:700;text-align:left}
+
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
